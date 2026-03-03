@@ -6,7 +6,7 @@ require("dotenv").config();
 const app = express();
 
 app.use(cors({
-  origin: "https://resume-maker-omega-ruddy.vercel.app",
+  origin: "https://resume-maker-omega-ruddy.vercel.app || https://resume-maker-vikashs-projects-a7e494e3.vercel.app",
   credentials: true
 }));
 app.use(express.json());
